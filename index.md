@@ -1,6 +1,4 @@
-## Welcome to Wiben Bounty Page
-(This project is deprecated and not maintained.)
-
+## Welcome to SIRCLO Bounty Page
 
 # Rules
 The following requirements must be adhered to in order to participate in SIRCLO’s bounty program :
@@ -80,7 +78,7 @@ If we receive several reports for the same issue, we offer the bounty to the ear
 
 If a single fix fixes multiple vulnerabilities, we treat this as a single vulnerability.  For example, if you find 3 vulnerabilities in a WordPress plugin we use, and our fix is to remove the plugin, this will receive a single bounty, determined, as always, by impact.
 
-The payout ranges on this page are guidelines to express roughly how we think about the severity of classes of issues. They are not exact rules. There can be attributes of bugs that make them more or less severe, which will affect the payout. For example, if a vulnerability affects only a small population of users, it will likely receive a lower reward than a similar vulnerability that affects a larger population of users. To date, we have most commonly rewarded on the top end of our published payout ranges.
+The bounty category on this page are guidelines to express roughly how we think about the severity of classes of issues. They are not exact rules. There can be attributes of bugs that make them more or less severe, which will affect the payout. For example, if a vulnerability affects only a small population of users, it will likely receive a lower reward than a similar vulnerability that affects a larger population of users. To date, we have most commonly rewarded on the top end of our published bounty category.
 
 At the end of the day, all reward amounts are at our discretion, but we aim to be fair. Some researchers won't agree with some of our decisions, but we're paying out to the best of our ethical ability and trust that the majority of researchers will consider their rewards fair and in many cases generous. We will adapt as the program continues.
 
@@ -90,16 +88,16 @@ At the end of the day, all reward amounts are at our discretion, but we aim to b
 - Outdated wordpress instances
 - Most brute forcing issues
 
-## Bounty Payout Range
+## Bounty Category
 N.B: the amounts listed here are the maximum we can pay for these categories of issues. This is meant as rough guidance on how we think about rewarding issues, ultimately we will reward largely based on the impact of the issue but at our discretion. 
 
-- **Critical issues ($1)*- - Remote code execution on a production server. Exposure of information that identifies individuals (social security numbers, credit card numbers, bank account numbers, driver license images) Full account takeover of rider/partner account without interaction. Payment or partner invoice information exposure at scale. Potential access to source code. XSS in Toolshed (our internal account management system), or server-side request forgery (SSRF). Vulnerabilities leading to the compromise of an employee account (with a way to bypass two-factor).
+- **Critical issues** - Remote code execution on a production server. Exposure of information that identifies individuals (social security numbers, credit card numbers, bank account numbers, driver license images) Full account takeover of rider/partner account without interaction. Payment or partner invoice information exposure at scale. Potential access to source code. XSS in Toolshed (our internal account management system), or server-side request forgery (SSRF). Vulnerabilities leading to the compromise of an employee account (with a way to bypass two-factor).
 
-- **Significant Issues ($0.5)*- - Stored Cross-site Scripting which can cause significant brand damage (e.g. in a homepage), missing authorization checks leading to the exposure of email addresses, date of birth, names, phone numbers, etc.
+- **Significant Issues** - Stored Cross-site Scripting which can cause significant brand damage (e.g. in a homepage), missing authorization checks leading to the exposure of email addresses, date of birth, names, phone numbers, etc.
 
-- **Medium Issues ($0.3)*- - Reflected Cross-site Scripting (XSS), most Cross-site Request Forgery (CSRF) issues, access control issues which do not exposed PII but affect other accounts, some account validation bypasses (being able to change driver picture, etc). Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID).
+- **Medium Issues** - Reflected Cross-site Scripting (XSS), most Cross-site Request Forgery (CSRF) issues, access control issues which do not exposed PII but affect other accounts, some account validation bypasses (being able to change driver picture, etc). Any vulnerability which allows the bulk lookup of user UUIDs (e.g. turn an auto-incrementing ID into a UUID, turn an email into a UUID).
 
-- **Fraud Issues*- - Send these to `ext-fraud@sirclo.com`. We currently do not reward for fraud issues. 
+- **Fraud Issues** - - Send these to `ext-fraud@sirclo.com`. We currently do not reward for fraud issues. 
 
 ## Submission
 Though we welcome reporting of non-security issues, please note that only genuine security issues are eligible for rewards. If you have found a vulnerability, we would love to work with you to resolve it:
